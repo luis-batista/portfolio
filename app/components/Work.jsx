@@ -14,12 +14,12 @@ function Work() {
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}
-        className='text-center text-5xl font-Ovo'>Projetos</motion.h2>
+        className='text-center text-3xl lg:text-[48px] font-Ovo'>Projetos</motion.h2>
         <motion.p 
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}  
-        className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>Bem-vindo ao meu portfólio. Explore uma coleção de projetos que demonstram minha expertise.</motion.p>
+        className='text-center max-w-2xl mx-auto mt-10 mb-12 font-Ovo'>Bem-vindo ao meu portfólio. Explore uma coleção de projetos que demonstram minha expertise.</motion.p>
     
     <motion.div 
     initial={{ opacity: 0 }}
@@ -51,7 +51,7 @@ function Work() {
     whileInView={{ opacity: 1 }}
     transition={{ duration: 0.5, delay: 1.1 }}    
     href="" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px]
-     border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 font-Outfit'>
+     border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-amber-50 duration-500 font-Outfit'>
         Ver mais <Image src={assets.right_arrow_bold} alt='Rigght arrow'
         className='w-4'/>
     </motion.a>

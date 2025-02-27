@@ -38,8 +38,8 @@ const Navbar = () => {
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 border border-gray-500 rounded-full ml-4 px-12 py-3 bg-[#FCFCF2] ${isScroll ? "" : "bg-[#FCFCF2] shadow-sm bg-opacity-50"} `}>
             <li><a className='font-Ovo hover:underline' href="#top">Início</a></li>
             <li><a className='font-Ovo hover:underline' href="#about">Sobre</a></li>
+            <li><a className='font-Ovo hover:underline' href="#about">Habilidades</a></li>
             <li><a className='font-Ovo hover:underline' href="#work">Projetos</a></li>
-            <li><a className='font-Ovo hover:underline' href="#skills">Habilidades</a></li>
         </ul>
 
         <div className='flex items-center gap-4'>

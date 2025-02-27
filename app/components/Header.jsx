@@ -19,8 +19,8 @@ const Header = () => {
       initial={{y: -20, opacity: 0}}
       whileInView={{y: 0, opacity: 1}}
       transition={{duration: 0.6, delay: 0.3}}
-      className='flex flex-col items-center md:items-start gap-2 text-sm sm:text-base md:text-xl lg:text-2xl mb-3 font-Ovo text-center md:text-left'> 
-      {/*className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-mono'>*/} 
+      className='flex flex-col items-center md:items-start gap-2 text-xl md:text-2xl lg:text-2xl mb-3 font-Ovo text-center md:text-left'> 
+      {/*className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>*/} 
         Olá! Eu sou o Luís.
       </motion.h3>
       <motion.h1
@@ -35,7 +35,7 @@ const Header = () => {
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
       transition={{duration: 0.6, delay: 0.7}}  
-      className='max-w-xl font-Ovo mt-2'>
+      className='max-w-xl font-Ovo mt-4'>
         Graduado em Engenharia da Computação pela Universidade do Estado do Rio de Janeiro (UERJ) e desenvolvedor Full Stack.
       </motion.p>
 

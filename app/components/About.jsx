@@ -5,7 +5,7 @@ import {motion} from 'motion/react'
 
 const About = () => {
   return (
-    <motion.div id='about' className='w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 scroll-mt-28'
+    <motion.div id='about' className='w-full max-w-7xl mx-auto px-8 sm:px-6 lg:px-8 py-10 scroll-mt-44'
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     transition={{ duration: 1 }} 
@@ -14,19 +14,19 @@ const About = () => {
       initial={{ opacity: 0, y: -20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.5 }} 
-      className='text-center text-5xl font-Ovo'>Minha trajetória</motion.h2>
+      className='text-center text-3xl lg:text-[48px] font-Ovo'>Minha trajetória</motion.h2>
 
   <motion.div 
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     transition={{ duration: 0.8 }} 
-    className='container mx-auto flex w-full flex-col lg:flex-row items-center justify-center gap-20 my-20'>
+    className='container mx-auto flex w-full flex-col lg:flex-row items-center justify-center gap-20 my-20 mt-10'>
     <motion.div 
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     transition={{ duration: 0.6, delay: 0.8 }} 
     className='flex-1 max-w-3xl'>
-      <p className='mb-10 font-Ovo'>
+      <p className='text-left mb-10 font-Ovo'>
       Graduado em Engenharia de Computação pela UERJ, atuei como pesquisador na universidade, desenvolvendo um projeto voltado para estações meteorológicas. Atualmente, trabalho como estagiário na Colaborativa Tecnologia da Informação, desempenhando papéis importantes na execução de projetos.  
       Sou apaixonado por tecnologia e busco continuamente o aprendizado e oportunidades que contribuam para meu crescimento pessoal e profissional.
       </p>
@@ -53,7 +53,7 @@ const About = () => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 1.3 }} 
-      className='my-6 text-gray-700 font-mono'>Habilidades</motion.h4>
+      className='my-6 text-center text-2xl text-gray-700 font-Ovo'>Habilidades</motion.h4>
 
       <motion.ul 
       initial={{opacity: 0}}
