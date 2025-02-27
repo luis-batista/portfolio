@@ -14,7 +14,7 @@ const About = () => {
       initial={{ opacity: 0, y: -20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.5 }} 
-      className='text-center text-5xl font-mono'>Sobre mim</motion.h2>
+      className='text-center text-5xl font-Ovo'>Minha trajetória</motion.h2>
 
   <motion.div 
     initial={{ opacity: 0 }}
@@ -26,9 +26,9 @@ const About = () => {
     whileInView={{ opacity: 1 }}
     transition={{ duration: 0.6, delay: 0.8 }} 
     className='flex-1 max-w-3xl'>
-      <p className='mb-10 font-mono text-justify'>
-      Graduando em Engenharia de Computação pela UERJ, atuei como pesquisador na universidade durante minha trajetória acadêmica e profissional e, atualmente, trabalho como estagiário na Colaborativa Tecnologia da Informação, desempenhando papéis importantes na execução de projetos. 
-      Apaixonado por tecnologia, busco constantemente o aprendizado contínuo e oportunidades que contribuam para o meu crescimento pessoal e profissional.
+      <p className='mb-10 font-Ovo'>
+      Graduado em Engenharia de Computação pela UERJ, atuei como pesquisador na universidade, desenvolvendo um projeto voltado para estações meteorológicas. Atualmente, trabalho como estagiário na Colaborativa Tecnologia da Informação, desempenhando papéis importantes na execução de projetos.  
+      Sou apaixonado por tecnologia e busco continuamente o aprendizado e oportunidades que contribuam para meu crescimento pessoal e profissional.
       </p>
 
       <motion.ul 
@@ -42,9 +42,9 @@ const About = () => {
           className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black' key={index}>
             <div className='flex items-center gap-3'>
                 <Image src={icon} alt={title} className='w-7'/>
-                <h3 className='my-4 font-semibold text-gray-700 font-mono'>{title}</h3>
+                <h3 className='my-4 font-semibold text-gray-700 font-Outfit'>{title}</h3>
             </div>
-            <p className='text-gray-600 text-sm font-mono'>{description}</p>
+            <p className='text-gray-600 text-sm font-Outfit'>{description}</p>
           </motion.li>
         ))}
       </motion.ul>

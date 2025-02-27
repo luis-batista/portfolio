@@ -18,15 +18,16 @@ const Header = () => {
       <motion.h3
       initial={{y: -20, opacity: 0}}
       whileInView={{y: 0, opacity: 1}}
-      transition={{duration: 0.6, delay: 0.3}} 
-      className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-mono'> 
+      transition={{duration: 0.6, delay: 0.3}}
+      className='flex flex-col items-center md:items-start gap-2 text-sm sm:text-base md:text-xl lg:text-2xl mb-3 font-Ovo text-center md:text-left'> 
+      {/*className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-mono'>*/} 
         Olá! Eu sou o Luís.
       </motion.h3>
       <motion.h1
       initial={{y: -30, opacity: 0}}
       whileInView={{y: 0, opacity: 1}}
       transition={{duration: 0.8, delay: 0.5}}  
-      className='text-3xl sm:text-6xl lg:text-[64px] font-mono'>
+      className='text-3xl sm:text-6xl lg:text-[64px] font-Outfit'>
         Developer FullStack
       </motion.h1>
 
@@ -34,8 +35,8 @@ const Header = () => {
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
       transition={{duration: 0.6, delay: 0.7}}  
-      className='max-w-xl font-mono mt-2'>
-        Graduando em Engenharia da Computação pela Universidade do Estado do Rio de Janeiro (UERJ) e desenvolvedor Full Stack.
+      className='max-w-xl font-Ovo mt-2'>
+        Graduado em Engenharia da Computação pela Universidade do Estado do Rio de Janeiro (UERJ) e desenvolvedor Full Stack.
       </motion.p>
 
       {/* Botões */}
@@ -44,7 +45,7 @@ const Header = () => {
         initial={{y: 30, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
         transition={{duration: 0.6, delay: 1}} 
-        href="/sample-resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black font-mono'>
+        href="/sample-resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black font-Outfit'>
           Currículum<Image src={assets.download_icon} alt='' className='w-4'/>
         </motion.a>
 
@@ -52,7 +53,7 @@ const Header = () => {
         initial={{y: 30, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
         transition={{duration: 0.6, delay: 1.2}} 
-        href="#contact" className='px-10 py-3 border border-black rounded-full bg-black text-white flex items-center gap-2 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black font-mono'>
+        href="#contact" className='px-10 py-3 border border-black rounded-full bg-black text-white flex items-center gap-2 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black font-Outfit'>
           Contato<Image src={assets.right_arrow_white} alt='' className='w-4'/>
         </motion.a>
       </div>
