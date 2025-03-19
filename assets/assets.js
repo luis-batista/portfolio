@@ -41,6 +41,9 @@ import reactjs from './reactjs.jpg';
 import nextjs from './nextjs.jpg';
 import react_native from './react_native.jpg';
 
+const isProd = process.env.NODE_ENV === 'production';
+const basePath = isProd ? '/portfolio' : '';
+
 export const assets = {
     code_icon,
     code_icon_dark,
@@ -90,7 +93,7 @@ export const workData = [
     {
         title: 'Sistema de atendimento',
         description: 'HTML | CSS | Appscript | Bootstrap',
-        bgImage: '/work-1.png',
+        bgImage: `${basePath}/work-1.png`,
         longDescription: `Sistema desenvolvido para gerenciamento de atendimentos e pacientes durante minha trajetória na Colaborativa Tecnologia.
 
         As funcionalidades deste sistema incluem:
