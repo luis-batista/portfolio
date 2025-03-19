@@ -27,7 +27,7 @@ const About = () => {
     transition={{ duration: 0.6, delay: 0.8 }} 
     className='flex-1 max-w-3xl'>
       <p className='text-left mb-10 font-Ovo'>
-      Graduado em Engenharia de Computação pela UERJ, atuei como pesquisador na universidade, desenvolvendo um projeto voltado para estações meteorológicas. Atualmente, trabalho como estagiário na Colaborativa Tecnologia da Informação, desempenhando papéis importantes na execução de projetos.  
+      Graduando em Engenharia de Computação pela UERJ, atuei como pesquisador na universidade, desenvolvendo um projeto voltado para estações meteorológicas. Atualmente, trabalho como estagiário na Colaborativa Tecnologia da Informação, desempenhando papéis importantes na execução de projetos.  
       Sou apaixonado por tecnologia e busco continuamente o aprendizado e oportunidades que contribuam para meu crescimento pessoal e profissional.
       </p>
 
@@ -59,7 +59,7 @@ const About = () => {
       initial={{opacity: 0}}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay: 1.5 }} 
-      className='flex items-center justify-center sm:justify-start gap-3 sm:gap-5'>
+      className='flex flex-wrap items-center justify-center sm:justify-start gap-3 sm:gap-5'>
         {toolsData.map((tool, index)=>(
           <motion.li 
           whileHover={{ scale: 1.1 }} 

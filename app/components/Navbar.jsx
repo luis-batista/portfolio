@@ -31,15 +31,16 @@ const Navbar = () => {
         <Image src={assets.header_bg_color} alt='' className='w-full'/>
     </div>
       <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white-50 backdrop-blur-lg shadow-sm":""}`}>
-        <button>
-            <Image src={assets.moon_icon} alt='' className='w-6' />
-        </button>
+        {/* <button> */}
+            <a className='font-Outfit' href="#top">@lu.eduardooo</a>
+            {/* <Image src={assets.moon_icon} alt='' className='w-6' /> */}
+        {/* </button> */}
 
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 border border-gray-500 rounded-full ml-4 px-12 py-3 bg-[#FCFCF2] ${isScroll ? "" : "bg-[#FCFCF2] shadow-sm bg-opacity-50"} `}>
-            <li><a className='font-Ovo hover:underline' href="#top">Início</a></li>
-            <li><a className='font-Ovo hover:underline' href="#about">Sobre</a></li>
-            <li><a className='font-Ovo hover:underline' href="#about">Habilidades</a></li>
-            <li><a className='font-Ovo hover:underline' href="#work">Projetos</a></li>
+            <li><a className='font-Outfit hover:underline' href="#top">Início</a></li>
+            <li><a className='font-Outfit hover:underline' href="#about">Sobre</a></li>
+            <li><a className='font-Outfit hover:underline' href="#about">Habilidades</a></li>
+            <li><a className='font-Outfit hover:underline' href="#work">Projetos</a></li>
         </ul>
 
         <div className='flex items-center gap-4'>
@@ -60,10 +61,10 @@ const Navbar = () => {
                 <Image src={assets.close_black} alt='' className='w-5 cursor-pointer'/>
             </div>
 
-            <li><a className='font-Ovo' onClick={closeMenu} href="#top">Início</a></li>
-            <li><a className='font-Ovo' onClick={closeMenu} href="#about">Sobre</a></li>
-            <li><a className='font-Ovo' onClick={closeMenu} href="#work">Projetos</a></li>
-            <li><a className='font-Ovo' onClick={closeMenu} href="#contact">Contato</a></li>
+            <li><a className='font-Outfit' onClick={closeMenu} href="#top">Início</a></li>
+            <li><a className='font-Outfit' onClick={closeMenu} href="#about">Sobre</a></li>
+            <li><a className='font-Outfit' onClick={closeMenu} href="#work">Projetos</a></li>
+            <li><a className='font-Outfit' onClick={closeMenu} href="#contact">Contato</a></li>
 
         </ul>
 

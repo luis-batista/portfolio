@@ -4,7 +4,7 @@ import edu_icon from './edu-icon.png';
 import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
-import vscode from './vscode.png';
+import nodejs from './nodejs.jpg';
 import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
@@ -31,6 +31,15 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import python from './python.png';
+import js from './js.png';
+import typescript from './typescript.png';
+import html_icon from './html_icon.png';
+import css_icon from './css_icon.png';
+import tailwindcss from './tailwindcss.jpg';
+import reactjs from './reactjs.jpg';
+import nextjs from './nextjs.jpg';
+import react_native from './react_native.jpg';
 
 export const assets = {
     code_icon,
@@ -39,7 +48,7 @@ export const assets = {
     edu_icon_dark,
     project_icon,
     project_icon_dark,
-    vscode,
+    nodejs,
     firebase,
     figma,
     git,
@@ -65,30 +74,65 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    python,
+    js,
+    typescript,
+    html_icon,
+    css_icon,
+    tailwindcss,
+    reactjs,
+    nextjs,
+    react_native
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Sistema de atendimento',
+        description: 'HTML | CSS | Appscript | Bootstrap',
         bgImage: '/work-1.png',
+        longDescription: `Sistema desenvolvido para gerenciamento de atendimentos e pacientes durante minha trajetória na Colaborativa Tecnologia.
+
+        As funcionalidades deste sistema incluem:
+
+        - Cadastro e agendamento de horários;
+        - Confirmação de agendamento;
+        - Consulta e atualização de informações;
+        - Envio automático de prontuário;
+        - Envio automático de localização do consultório.`,
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Segurança da informação',
+        description: 'Google Workspace',
         bgImage: '/work-2.png',
+        longDescription: `Projeto customizado com o objetivo de implementar controles de compliance e segurança da informação na plataforma Google Workspace.
+        
+        Este projeto consiste em:
+        
+        - Relatório de avaliação de segurança;
+        - Definição de Política de Segurança da Informação;
+        - Aplicação de controles de segurança;
+        - Treinamento de usuários.`,
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Intranet corporativa',
+        description: 'HTML | CSS | Google Sites',
         bgImage: '/work-3.png',
+        longDescription: `Projeto desenvolvido para promover a comunicação, impulsionar a colaboração e aprimorar a organização dos processos internos, resultando em maior produtividade.
+        
+        O objetivo desta intranet é:
+
+        - Comunicação;
+        - Interação e colaboração;
+        - Produtividade e inovação;
+        - Organização de processos internos.`,
+
     },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
+    // {
+    //     title: 'UI/UX designing',
+    //     description: 'UI/UX Design',
+    //     bgImage: '/work-4.png',
+    // },
 ]
 
 export const serviceData = [
@@ -100,10 +144,10 @@ export const serviceData = [
 
 export const infoList = [
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Formação', description: 'Engenharia da Computação - UERJ' },
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Linguagens', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projetos', description: 'Alguns projetos' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Soft Skills', description: 'Comunicação eficaz, Trabalho em equipe, Resolução de problemas, Adaptabilidade.' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projetos', description: 'Sistema de atendimento, Segurança da informação, Intranet corporativa.' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.html_icon, assets.css_icon, assets.js, assets.typescript, assets.tailwindcss, assets.reactjs, assets.nextjs, assets.react_native, assets.nodejs, assets.mongodb, assets.git, assets.python
 ];
