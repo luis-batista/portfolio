@@ -107,7 +107,7 @@ export const workData = [
     {
         title: 'Segurança da informação',
         description: 'Google Workspace',
-        bgImage: '/work-2.png',
+        bgImage: `${basePath}/work-2.png`,
         longDescription: `Projeto customizado com o objetivo de implementar controles de compliance e segurança da informação na plataforma Google Workspace.
         
         Este projeto consiste em:
@@ -120,7 +120,7 @@ export const workData = [
     {
         title: 'Intranet corporativa',
         description: 'HTML | CSS | Google Sites',
-        bgImage: '/work-3.png',
+        bgImage: `${basePath}/work-3.png`,
         longDescription: `Projeto desenvolvido para promover a comunicação, impulsionar a colaboração e aprimorar a organização dos processos internos, resultando em maior produtividade.
         
         O objetivo desta intranet é:
