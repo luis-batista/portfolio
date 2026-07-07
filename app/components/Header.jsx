@@ -39,7 +39,7 @@ const Header = () => {
       whileInView={{opacity: 1}}
       transition={{duration: 0.6, delay: 0.7}}  
       className='max-w-xl font-Ovo mt-4'>
-        Graduando em Engenharia da Computação pela Universidade do Estado do Rio de Janeiro (UERJ) e desenvolvedor Full Stack.
+        Graduado em Engenharia da Computação pela Universidade do Estado do Rio de Janeiro (UERJ) e Desenvolvedor Front End na XLOW Brasil Tecnologia.
       </motion.p>
 
       {/* Botões */}

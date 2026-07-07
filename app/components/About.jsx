@@ -27,7 +27,7 @@ const About = () => {
     transition={{ duration: 0.6, delay: 0.8 }} 
     className='flex-1 max-w-3xl'>
       <p className='text-left mb-10 font-Ovo'>
-      Graduando em Engenharia de Computação pela UERJ, atuei como pesquisador na universidade, desenvolvendo um projeto voltado para estações meteorológicas. Atualmente, trabalho como estagiário na Colaborativa Tecnologia da Informação, desempenhando papéis importantes na execução de projetos.  
+      Graduado em Engenharia de Computação pela UERJ, atuei como pesquisador na universidade, desenvolvendo um projeto voltado para estações meteorológicas. Atualmente, trabalho como Desenvolvedor Front End, desempenhando papéis importantes na execução de projetos VTEX IO.  
       Sou apaixonado por tecnologia e busco continuamente o aprendizado e oportunidades que contribuam para meu crescimento pessoal e profissional.
       </p>
 

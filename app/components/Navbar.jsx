@@ -44,10 +44,8 @@ const Navbar = () => {
         </ul>
 
         <div className='flex items-center gap-4'>
-
-            <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4
-            font-Outfit hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black'>Contato <Image src={assets.arrow_icon} alt='' className='w-3'/></a>
-
+            <a href="https://wa.me/5522988485679" target='_blank' className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4
+            font-Outfit hover:bg-green-500 hover:-translate-y-1 duration-500 hover:shadow-black'>WhatsApp <Image src={assets.arrow_icon} alt='' className='w-3'/></a>
             <button className='block md:hidden ml-3' onClick={openMenu}>
                 <Image src={assets.menu_black} alt='' className='w-6' />
             </button>
@@ -64,7 +62,7 @@ const Navbar = () => {
             <li><a className='font-Outfit' onClick={closeMenu} href="#top">Início</a></li>
             <li><a className='font-Outfit' onClick={closeMenu} href="#about">Sobre</a></li>
             <li><a className='font-Outfit' onClick={closeMenu} href="#work">Projetos</a></li>
-            <li><a className='font-Outfit' onClick={closeMenu} href="#contact">Contato</a></li>
+            <li><a className='font-Outfit' onClick={closeMenu} href="https://wa.me/5522988485679" target='_blank'>WhatsApp</a></li>
 
         </ul>
 

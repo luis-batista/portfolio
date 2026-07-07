@@ -19,7 +19,7 @@ function Work() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}  
-        className='text-center max-w-2xl mx-auto mt-10 mb-12 font-Ovo'>Bem-vindo ao meu portfólio. Aqui, mostro alguns projetos executados durante minha trajetória na Colaborativa Tecnologia da Informação.
+        className='text-center max-w-2xl mx-auto mt-10 mb-12 font-Ovo'>Aqui, mostro alguns dos trabalhos executados durante minha trajetória.
         </motion.p>
 
 <motion.div 

@@ -131,6 +131,24 @@ export const workData = [
         - Organização de processos internos.`,
 
     },
+    {
+    title: 'Telhanorte',
+    description: 'VTEX IO | E-commerce | React',
+    bgImage: `${basePath}/telhanorte.png`,
+    longDescription: `Parcipação em soluções para Telhanorte`
+    },
+    {
+    title: 'Netsofas',
+    description: 'VTEX IO | E-commerce | React',
+    bgImage: `${basePath}/netsofas.png`,
+    longDescription: `Parcipação em soluções para Netsofas`
+    },
+    {
+    title: 'Sestini',
+    description: 'VTEX IO | E-commerce | React',
+    bgImage: `${basePath}/sestini.png`,
+    longDescription: `Parcipação em soluções para Sestini`
+    }
     // {
     //     title: 'UI/UX designing',
     //     description: 'UI/UX Design',
@@ -148,7 +166,7 @@ export const serviceData = [
 export const infoList = [
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Formação', description: 'Engenharia da Computação - UERJ' },
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Soft Skills', description: 'Comunicação eficaz, Trabalho em equipe, Resolução de problemas, Adaptabilidade.' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projetos', description: 'Sistema de atendimento, Segurança da informação, Intranet corporativa.' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projetos', description: 'Sistema de atendimento, Intranet corporativa, Soluções VTEX' }
 ];
 
 export const toolsData = [
