@@ -89,11 +89,13 @@ export const assets = {
     react_native
 };
 
+// Preencha link com a URL do projeto para tornar o card clicável.
 export const workData = [
     {
         title: 'Sistema de atendimento',
         description: 'HTML | CSS | Appscript | Bootstrap',
         bgImage: `${basePath}/work-1.png`,
+        link: '',
         longDescription: `Sistema desenvolvido para gerenciamento de atendimentos e pacientes durante minha trajetória na Colaborativa Tecnologia.
 
         As funcionalidades deste sistema incluem:
@@ -108,6 +110,7 @@ export const workData = [
         title: 'Segurança da informação',
         description: 'Google Workspace',
         bgImage: `${basePath}/work-2.png`,
+        link: '',
         longDescription: `Projeto customizado com o objetivo de implementar controles de compliance e segurança da informação na plataforma Google Workspace.
         
         Este projeto consiste em:
@@ -121,6 +124,7 @@ export const workData = [
         title: 'Intranet corporativa',
         description: 'HTML | CSS | Google Sites',
         bgImage: `${basePath}/work-3.png`,
+        link: '',
         longDescription: `Projeto desenvolvido para promover a comunicação, impulsionar a colaboração e aprimorar a organização dos processos internos, resultando em maior produtividade.
         
         O objetivo desta intranet é:
@@ -133,21 +137,24 @@ export const workData = [
     },
     {
     title: 'Telhanorte',
-    description: 'VTEX IO | E-commerce | React',
+    description: 'VTEX IO | React | TypeScript | GraphQL | REST APIs | GA4 | GTM | HTML5 | CSS3',
     bgImage: `${basePath}/telhanorte.png`,
-    longDescription: `Parcipação em soluções para Telhanorte`
+    link: 'https://www.telhanorte.com.br/',
+    longDescription: `Atuação no desenvolvimento e evolução do e-commerce da Telhanorte em VTEX IO, criando componentes React customizados, páginas de categoria e produto, soluções de SEO, integrações com APIs e melhorias na jornada de compra. Também participei de customizações no checkout, implementação de eventos de analytics e correções de problemas em produção, com foco em performance, conversão e experiência do usuário.`
     },
     {
     title: 'Netsofas',
-    description: 'VTEX IO | E-commerce | React',
+    description: 'VTEX IO | React | TypeScript | JavaScript | CSS | E-commerce',
     bgImage: `${basePath}/netsofas.png`,
-    longDescription: `Parcipação em soluções para Netsofas`
+    link: 'https://www.netsofas.com.br/',
+    longDescription: `Desenvolvimento e manutenção de soluções para o e-commerce da Netsofas, utilizando VTEX IO e React, com foco em evolução de funcionalidades, experiência do usuário e melhorias na operação da loja.`
     },
     {
     title: 'Sestini',
-    description: 'VTEX IO | E-commerce | React',
+    description: 'VTEX IO | React | TypeScript | JavaScript | CSS | E-commerce',
     bgImage: `${basePath}/sestini.png`,
-    longDescription: `Parcipação em soluções para Sestini`
+    link: 'https://www.sestini.com.br/',
+    longDescription: `Desenvolvimento e manutenção de funcionalidades para o e-commerce da Sestini, utilizando VTEX IO e React, com foco na implementação de componentes, melhorias na experiência de compra e sustentação da plataforma.`
     }
     // {
     //     title: 'UI/UX designing',
